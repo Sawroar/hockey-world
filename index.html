@@ -71,7 +71,7 @@
             </div>
             <div class="navbar-end">
                 <div class="lg:mr-5">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 " fill="none" viewBox="0 0 24 24"
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 invisible " fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -390,10 +390,10 @@
                 <section class="flex justify-center items-center border rounded-2xl p-6 mt-12 border-dotted">
                     <div class="flex flex-col lg:flex-row gap-5">
 
-                        <div>
-                            <img src="Images/11.png" alt="">
+                        <div class="flex-1">
+                            <img src="Images/11.png" class="w-full" alt="">
                         </div>
-                        <div>
+                        <div class="flex-1">
                             <div class="collapse collapse-plus border bottom-1 ">
                                 <input type="radio" name="my-accordion-3" checked="checked" />
                                 <div class="collapse-title text-xl text-start font-medium">Our Equipment</div>
@@ -456,92 +456,143 @@
                         in sit
                         nullam proin. </p>
                     <div>
-                         </section>
-                        <!-- Get In Touch title end  -->
-                        <section class="flex flex-col lg:flex-row justify-center gap-8 p-6 mt-20">
-                            <div class="border rounded-2xl border-dotted p-12">
-                                <div class="bg-[#BCED6D] p-12 rounded-xl mt-6">
-                                    <img src="Images/Group 1171275317.png" alt="">
-                                    <h2 class="text-gray-500 text-start">Phone Number </h2>
-                                    <p class="text-xl font-extrabold text-secondary-color text-start">(+62) 123-321-543</p>
-                                </div>
-                                <div class="bg-[#FDDD5F] p-12 rounded-xl mt-6">
-                                    <img src="Images/Group 1171275318.png" alt="">
-                                    <h2 class="text-gray-500 text-start">Email </h2>
-                                    <p class="text-xl font-extrabold text-secondary-color text-start">hockeys@support.com</p>
-                                </div>
-                                <div class="bg-[#629cf3] p-12 rounded-xl mt-6">
-                                    <img src="Images/Group 1171275321.png" alt="">
-                                    <h2 class="text-gray-500 text-start">Location </h2>
-                                    <p class="text-xl font-extrabold text-secondary-color text-start">52/1 Mohakhali Wireless Gate</p>
-                                </div>
+                </section>
+                <!-- Get In Touch title end  -->
+                <section class="flex flex-col lg:flex-row justify-center gap-8 p-6 mt-20">
+                    <div class="border rounded-2xl border-dotted lg:p-12 flex-1">
+                        <div class="bg-[#BCED6D] p-12 rounded-xl mt-6">
+                            <img src="Images/Group 1171275317.png" alt="">
+                            <h2 class="text-gray-500 text-start">Phone Number </h2>
+                            <p class="text-xl font-extrabold text-secondary-color text-start">(+62) 123-321-543</p>
+                        </div>
+                        <div class="bg-[#FDDD5F] p-12 rounded-xl mt-6">
+                            <img src="Images/Group 1171275318.png" alt="">
+                            <h2 class="text-gray-500 text-start">Email </h2>
+                            <p class="text-xl font-extrabold text-secondary-color text-start">hockeys@support.com</p>
+                        </div>
+                        <div class="bg-[#629cf3] p-12 rounded-xl mt-6">
+                            <img src="Images/Group 1171275321.png" alt="">
+                            <h2 class="text-gray-500 text-start">Location </h2>
+                            <p class="text-xl font-extrabold text-secondary-color text-start">52/1 Mohakhali Wireless
+                                Gate</p>
+                        </div>
+                    </div>
+                    <div class="flex-1">
+                        <div class="flex flex-col lg:flex-row  justify-between">
+                            <div class="flex-1">
+                                <h2 class="text-xl text-secondary-color text-start lg:text-center font-bold">Your Name
+                                </h2>
+                                <input type="text" placeholder="Enter your full name"
+                                    class="input input-bordered input-md w-full max-w-xs bg-[#f7f7ff]" />
                             </div>
-                            <div>
-                                <div class="flex flex-col lg:flex-row gap-6">
-                                <div>
-                                    <h2 class="text-xl text-secondary-color text-start lg:text-center font-bold">Your Name</h2>
-                                    <input type="text" placeholder="Enter your full name"
-                                        class="input input-bordered input-md w-full max-w-xs bg-[#f7f7ff]" />
-                                </div>
-                                    <div>
-                                        <h2 class="text-xl text-secondary-color text-start lg:text-center font-bold">Your Email</h2>
-                                        <input type="text" placeholder="Enter your email"
-                                            class="input input-bordered input-md w-full max-w-xs bg-[#f7f7ff]" />
-                                    </div>
-                                </div>
-                                <div  class="flex flex-col lg:flex-row gap-6">
-                                    <div>
-
-                                        <h2 class="text-xl text-secondary-color font-bold text-start lg:text-center">Subject</h2>
-                                        <input type="text" placeholder="Enter your Subject"
-                                            class="input input-bordered input-md w-full max-w-xs bg-[#f7f7ff]" />
-                                        </div>
-                                        <div>
-                                        <h2 class="text-xl text-secondary-color font-bold text-start lg:text-center">Phone Number</h2>
-
-                                        <input type="number" placeholder="Enter your Phone Number"
-                                            class="input input-bordered input-md w-full max-w-xs bg-[#f7f7ff]" />
-                                    </div>
-                                </div>
-                                <h2 class="text-xl text-secondary-color font-bold text-start">Message</h2>
-                                <input type="number" placeholder="Enter your Message"
-                                    class="input input-bordered input-lg w-full max-w-lg h-[370px] bg-[#f7f7ff]" />
-                                    <a class="btn bg-primary-color text-white w-full mt-8">Send Message</a>
+                            <div class="flex-1">
+                                <h2 class="text-xl text-secondary-color text-start lg:text-center font-bold">Your Email
+                                </h2>
+                                <input type="text" placeholder="Enter your email"
+                                    class="input input-bordered input-md w-full max-w-xs bg-[#f7f7ff]" />
                             </div>
-                        </section>
-                        <!-- social media section start  -->
-                        <section class=" p-9 bg-[#f7f7ff]">
-<h2 class="text-2xl font-extrabold text-secondary-color">Social Media</h2>
-<div class="flex gap-4 justify-center mt-6">
-<i class="fa-brands fa-twitter"></i>
-<i class="fa-brands fa-facebook-f"></i>
-<i class="fa-brands fa-instagram"></i>
-<i class="fa-brands fa-github"></i>
-</div>
-                        </section>
+                        </div>
+                        <div class="flex flex-col lg:flex-row  justify-around">
+                            <div class="flex-1">
+
+                                <h2 class="text-xl text-secondary-color font-bold text-start lg:text-center">Subject
+                                </h2>
+                                <input type="text" placeholder="Enter your Subject"
+                                    class="input input-bordered input-md w-full max-w-xs bg-[#f7f7ff]" />
+                            </div>
+                            <div class="flex-1">
+                                <h2 class="text-xl text-secondary-color font-bold text-start lg:text-center">Phone
+                                    Number</h2>
+
+                                <input type="number" placeholder="Enter your Phone Number"
+                                    class="input input-bordered input-md w-full max-w-xs bg-[#f7f7ff]" />
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="flex-grow">
+                        <h2 class="text-xl text-secondary-color font-bold ">Message</h2>
+                        <input type="text" placeholder="Enter your Message"
+                            class="input input-bordered input-lg w-full max-w-lg lg:h-[370px]  bg-[#f7f7ff]" />
+                        <a class="btn bg-primary-color text-white w-full mt-8">Send Message</a>
+                    </div>
+                    </div>
+                    </div>
+                </section>
+                <!-- social media section start  -->
+                <section class=" p-9 bg-[#f7f7ff]">
+                    <h2 class="text-2xl font-extrabold text-secondary-color">Social Media</h2>
+                    <div class="flex gap-4 justify-center mt-6">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </section>
     </main>
-    <footer class="footer bg-neutral text-neutral-content p-10">
+    <footer >
+        <div class="footer bg-black text-neutral-content p-10 ">
+
+       
+        <nav class="">
+            <h6 class=" text-white font-extrabold text-3xl  ">Get In Touch</h6>
+            <a class="">Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor.
+                Purus <br>
+                urna in sit nullam proin. </a>
+            <div>
+                <div  class="flex items-center gap-2">
+                    <i class="fa-regular fa-envelope text-primary-color"></i>
+                    <a class="link link-hover">hockeys@support.com</a>
+                </div>
+                <div class=" flex items-center gap-2">
+                    <i class="fa-solid fa-phone text-primary-color"></i>
+                    <a class="link link-hover">(+62) 123-321-543</a>
+                </div>
+            </div>
+        </nav>
+        <div class="flex flex-row justify-between gap-10 items-center ">
         <nav>
-          <h6 class="footer-title">Services</h6>
-          <a class="link link-hover">Branding</a>
-          <a class="link link-hover">Design</a>
-          <a class="link link-hover">Marketing</a>
-          <a class="link link-hover">Advertisement</a>
+            <div>
+            <h6 class="footer-title">Company</h6>
+            <a class="link link-hover">About us</a>
+            <br>
+            <a class="link link-hover">Leadership</a>
+            <br>
+            <a class="link link-hover">Careers</a>
+            <br>
+            <a class="link link-hover">News & Articlet</a>
+            <br>
+            <a class="link link-hover">Legal Notice</a>
+            </div>
         </nav>
         <nav>
-          <h6 class="footer-title">Company</h6>
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">Contact</a>
-          <a class="link link-hover">Jobs</a>
-          <a class="link link-hover">Press kit</a>
+            <div>
+            <h6 class="footer-title">Support</h6>
+            <a class="link link-hover">Help Center</a>
+            <br>
+            <a class="link link-hover">FAQ</a>
+            <br>
+            <a class="link link-hover">Ticket Support</a>
+            <br>
+            <a class="link link-hover">Contact Us</a>
+        </div>
         </nav>
-        <nav>
-          <h6 class="footer-title">Legal</h6>
-          <a class="link link-hover">Terms of use</a>
-          <a class="link link-hover">Privacy policy</a>
-          <a class="link link-hover">Cookie policy</a>
+    </div>
+        <nav class="text-center">
+            <div>
+            <h6 class="footer-title">Services</h6>
+            <a class="link link-hover">Academy</a>
+            <br>
+            <a class="link link-hover">Group Lesson</a>
+            <br>
+            <a class="link link-hover">Private Lesson</a>
+            <br>
+            <a class="link link-hover">Hockeys for kids</a>
+            <br>
+            <a class="link link-hover">Hockeys for Adults</a>
+            </div>
         </nav>
-      </footer>
+    </div>
+    </footer>
 </body>
 
 </html>
